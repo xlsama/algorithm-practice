@@ -3,7 +3,7 @@
  * @return {number}
  * @link https://leetcode-cn.com/problems/roman-to-integer/
  */
-var romanToInt = function (s) {
+const romanToInt = function (s) {
   const map = new Map([
     ['I', 1],
     ['V', 5],
